@@ -1,0 +1,104 @@
+1
+00:00:00,530 --> 00:00:03,890
+In the previous project, you learned
+how to construct models of data, and
+
+2
+00:00:03,890 --> 00:00:07,350
+then use those models to generate
+predictions about the future.
+
+3
+00:00:07,350 --> 00:00:10,030
+In this unit, we're going to cover
+one of the methods for doing that,
+
+4
+00:00:10,030 --> 00:00:11,790
+called supervised learning.
+
+5
+00:00:11,790 --> 00:00:14,805
+Supervised learning is a type of machine
+learning where we feed our system what
+
+6
+00:00:14,805 --> 00:00:16,385
+we call labeled examples.
+
+7
+00:00:16,385 --> 00:00:20,185
+Labeled examples means we give the
+system some information that it uses to
+
+8
+00:00:20,185 --> 00:00:22,245
+understand the data
+that we're giving it.
+
+9
+00:00:22,245 --> 00:00:26,115
+So for example if we were building our
+system to recognize my face, we would
+
+10
+00:00:26,115 --> 00:00:29,185
+give it some pictures of my face and
+some pictures of other people's faces.
+
+11
+00:00:29,185 --> 00:00:32,455
+And we would actually tell the system
+these pictures are of David and
+
+12
+00:00:32,455 --> 00:00:34,190
+these pictures are of somebody else.
+
+13
+00:00:34,190 --> 00:00:37,510
+And it would use that information to
+develop its understanding over time.
+
+14
+00:00:37,510 --> 00:00:39,790
+In other domains,
+we would see things like in health care,
+
+15
+00:00:39,790 --> 00:00:41,330
+we would give it some
+examples of patients.
+
+16
+00:00:41,330 --> 00:00:42,580
+And we would tell it whether or
+
+17
+00:00:42,580 --> 00:00:44,380
+not those patients ended
+up with a certain disease.
+
+18
+00:00:44,380 --> 00:00:46,910
+Or in education, we would give
+it examples of students and
+
+19
+00:00:46,910 --> 00:00:50,040
+tell it whether or not each of those
+students actually ended up graduating.
+
+20
+00:00:50,040 --> 00:00:53,280
+So the system is using some information
+that we give it about the success or
+
+21
+00:00:53,280 --> 00:00:57,080
+failure of those different examples to
+construct its understanding about what
+
+22
+00:00:57,080 --> 00:00:58,460
+leads to that success or failure.
